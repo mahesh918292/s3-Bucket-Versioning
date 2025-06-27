@@ -12,12 +12,11 @@ This Repo steps to create a delete file and recover the file through bucket vers
 # File will be recovered
 
 
-
 # If Folder was deleted
 Then we need to delete the marker for all the files in the folder then the files inside folder gets recovered ( for each file delete marker get allocated )
 
 ✅ Versioning States in S3 <br>
 State                   	        Description <br>
-Unversioned	        ------          Default when bucket is created <br>
+Disabled Versioning	        ------          No versions will be there <br>
 Enabled	Versioning is active ------  all changes create versions <br>
 Suspended           -----    	No new versions are created behaves like an unversioned bucket, but old versions stay <br>
