@@ -15,6 +15,7 @@ This Repo steps to create a delete file and recover the file through bucket vers
 # If Folder was deleted
 Then we need to delete the marker for all the files in the folder then the files inside folder gets recovered ( for each file delete marker get allocated )
 
+# if we want to delete the file version permanaently then select the delete marker and file associateed with it then it will get deleted permenantly
 ✅ Versioning States in S3 <br>
 State                   	        Description <br>
 Disabled Versioning	        ------          No versions will be there <br>
